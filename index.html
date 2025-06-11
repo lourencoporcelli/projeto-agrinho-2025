@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conexão Campo e Cidade</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f0f8ff;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        h1 {
-            color: #2e8b57;
-        }
-        .section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-bottom: 40px;
-        }
-        .card {
-            width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-            margin: 10px;
-        }
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-        .card p {
-            padding: 10px;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            color: #555;
-            margin-top: 50px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Integração Cidade e Campo</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      background-image: url('https://images.unsplash.com/photo-1503437313881-503a91226402?auto=format&fit=crop&w=1950&q=80'); /* Imagem de cidade e campo */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero-text {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 10px;
+      max-width: 700px;
+    }
+
+    .content {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 1.8;
+    }
+
+    h1, h2 {
+      color: #2e7d32;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Conexão entre o Campo e a Cidade</h1>
-        <p>Explorando as diferenças e semelhanças através de fotos</p>
-    </header>
 
-    <section class="section">
-        <div class="card">
-            <img src="img/Screenshot_2025-06-11-07-31-28-733_com.miui.mediaviewer.jpg" />
-            <p>O campo com suas paisagens abertas e tranquilas.</p>
-        </div>
-        <div class="card">
-            <img src="cidade1.jpg" alt="Cidade movimentada" />
-            <p>A cidade com sua agitação e edifícios altos.</p>
-        </div>
-    </section>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Integração entre Cidade e Campo</h1>
+      <p>Construindo um futuro sustentável através da conexão entre áreas urbanas e rurais.</p>
+    </div>
+  </div>
 
-    <section class="section">
-        <div class="card">
-            <img src="campo2.jpg" alt="Agricultura no campo" />
-            <p>Atividades agrícolas que conectam o campo à nossa alimentação.</p>
-        </div>
-        <div class="card">
-            <img src="cidade2.jpg" alt="Vida urbana" />
-            <p>O ritmo acelerado da vida urbana.</p>
-        </div>
-    </section>
+  <div class="content">
+    <div class="section">
+      <h2>Conceito de Integração</h2>
+      <p>
+        A integração entre cidade e campo refere-se à relação de interdependência entre áreas urbanas e rurais. Enquanto o campo fornece alimentos, recursos naturais e espaços de lazer, a cidade oferece tecnologia, serviços e infraestrutura. É essencial que essa relação seja equilibrada e sustentável.
+      </p>
+    </div>
 
-    <footer>
-        <p>Projeto criado para mostrar a relação entre o campo e a cidade.</p>
-    </footer>
+    <div class="section">
+      <h2>Benefícios da Conexão</h2>
+      <p>
+        Uma boa integração proporciona desenvolvimento regional equilibrado, geração de empregos, valorização da cultura local e acesso ampliado a serviços públicos. Além disso, estimula o turismo rural, incentiva a agroecologia e fortalece cadeias produtivas.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Desafios Enfrentados</h2>
+      <p>
+        Entre os principais desafios estão a desigualdade de acesso a recursos, migração descontrolada, degradação ambiental e a falta de políticas públicas eficazes. Superar esses obstáculos exige planejamento urbano-rural integrado e investimentos estratégicos.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Exemplos de Sucesso</h2>
+      <p>
+        Algumas regiões adotaram modelos inovadores de integração, como o fortalecimento de cooperativas agrícolas próximas a centros urbanos, transporte direto de alimentos da zona rural para feiras urbanas, e parcerias entre municípios e produtores rurais.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Conclusão</h2>
+      <p>
+        A integração cidade-campo é um caminho promissor para um desenvolvimento mais justo, sustentável e conectado. Ela depende do envolvimento de todos: governo, sociedade civil, empresas e cidadãos.
+      </p>
+    </div>
+  </div>
+
 </body>
 </html>
